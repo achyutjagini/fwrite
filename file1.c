@@ -9,5 +9,5 @@ ptr=arr;
 
 fwrite(ptr,sizeof(int),5,fp);
 
-
+fclose(fp);
 }
